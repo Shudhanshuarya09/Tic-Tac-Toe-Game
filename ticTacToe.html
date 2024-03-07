@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    * {
+      font-family: "Protest Riot";
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+
+  <body class="bg-purple-900">
+    <h1
+      class="font-bold text-center text-5xl p-2 underline text-opacity-90 text-white tracking-widest">
+      Tic-Tac-Toe Game
+    </h1>
+    <div class="flex justify-center pt-8">
+      <button
+        class="box hover:bg-purple-400 p-12 border-double border-4 bg-pink-400"></button>
+      <button
+        class="box hover:bg-purple-700 p-12 border-double border-4 bg-pink-400"></button>
+      <button
+        class="box hover:bg-purple-400 p-12 border-double border-4 bg-pink-400"></button>
+    </div>
+    <div class="flex justify-center pt-2">
+      <button
+        class="box hover:bg-purple-400 p-12 border-double border-4 bg-pink-400"></button>
+      <button
+        class="box hover:bg-purple-700 p-12 border-double border-4 bg-pink-400"></button>
+      <button
+        class="box hover:bg-purple-400 p-12 border-double border-4 bg-pink-400"></button>
+    </div>
+    <div class="flex justify-center pt-2">
+      <button
+        class="box hover:bg-purple-400 p-12 border-double border-4 bg-pink-400"></button>
+      <button
+        class="box hover:bg-purple-700 p-12 border-double border-4 bg-pink-400"></button>
+      <button
+        class="box hover:bg-purple-400 p-12 border-double border-4 bg-pink-400"></button>
+    </div>
+    <div class="text-center pt-3 space-x-2 text-black">
+      <button
+        class="resetBtn text-2xl tracking-wider rounded-2xl 2xl p-3 font-bold bg-pink-500 hover:bg-purple-400">
+        Reset Game
+      </button>
+      <button id="new-Btn"
+        class=" text-2xl tracking-wider rounded-2xl 2xl p-3 font-bold bg-pink-500 hover:bg-purple-400">
+        Start Game
+      </button>
+      <div class="pt-5 msg-container hide">
+        <p  id= "msg" class="font-bold tracking-widest text-3xl"></p>
+      </div>
+    </div>
+
+    <script src="ticTacToe.js"></script>
+  </body>
+</html>
+
+
+<!-- <div class="msg-container hide">
+  <p id="msg">Winner</p>
+  <button id="new-btn">New Game</button>
+</div> -->
